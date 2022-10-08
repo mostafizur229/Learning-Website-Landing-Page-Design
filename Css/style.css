@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: #ff02c0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banar-container{
+    margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+ 
+}
+
+/* header start here */
+
+header{
+    background-image: url("../img/others/study.jpg");
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-bottom: 0;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background: rgb(0, 0, 0,0.3);
+}
+.nav-icon{
+    color: white;
+
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border: radius 5px; 
+    transition: .4s;
+}
+
+.nav-link:hover{
+background-color: white;
+transform: scale(1.1);
+}
+
+.banar-content h1{
+    font-size: 3.5rem;
+    background-color:rgba(79, 15, 197, 0.3)
+}
+
+/* header end here */
+
+/* feature start */
+#feature{
+    margin-top: 0;
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.margin-handle{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: .4s;
+
+}
+
+.features-col:hover{
+transform: scale(1.1);
+box-shadow: 2px 6px 5px black;
+
+}
+
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.section-bg{
+    background:   #ff02c0;;
+}
+/* feature End */
+
+/* about section start here  */
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+
+
+#about-section{
+    padding-left: 10%;
+    background: #e8ded2;
+}
+
+#about-section p{
+ font-size: 0.9rem;
+ margin-bottom: 0;
+ font-weight: light;
+}
+
+/* about section End here  */
+
+/* tutorial start here  */
+#tutorial{ 
+    padding: 2%;
+    background: #a3d2ca;
+}
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0 ;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial ENd here  */
+
+/* feed back start here  */
+#feedback{
+    padding: 2%;
+    background: #53aaa8;
+}
+
+.carousel-item{
+text-align: center;
+padding: 4% 15%;
+}
+.item-img{
+    width: 120px;
+    height: auto;
+}
+
+/* feed back end here  */
+/* footer section start here */
+#footer-section{
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    color: red;
+}
+/* footer section end here */
+
+@media(max-width:768px){
+    .nav-link{
+        background: rgb(0, 0, 0,0.7);
+    }
+  
+}
